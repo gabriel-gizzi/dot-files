@@ -1,0 +1,44 @@
+[colors]
+# cursor = { text = "#ffffff", cursor = "#ffffff" }
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+[colors.normal]
+black = "#181818"
+red = "#c73232"
+green = "#48d43f"
+yellow = "#fad04b"
+blue = "#4e87ed"
+magenta = "#c05cc4"
+cyan = "#60ccc8"
+white = "#e6e6e6"
+[colors.bright]
+black = "#2e2e2e"
+red = "#ed4a4a"
+green = "#6cf562"
+yellow = "#ffde70"
+blue = "#78A6F5"
+magenta = "#e183e6"
+cyan = "#88ebe7"
+white = "#ffffff"
+[colors.search]
+# matches = { foreground = "#ffffff", background = "#ffffff" }
+[window]
+opacity = 0.5
+blur = false
+startup_mode = "Windowed"
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = true
+thickness = 0.1
+# Set to false to disable completely
+smooth_motion = true
+# 0.0 = cursor is not moving, 1.0 = cursor moves instantly
+smooth_motion_factor = 0.75
+# 0.0 = broken, 1.0 = cursor shape is unaffected by movement
+smooth_motion_spring = 0.5
+# Limits how the cursor size may change
+smooth_motion_max_stretch_x = 2.5
+smooth_motion_max_stretch_y = 2.5
+# Override "block" cursor if you don't like how it looks in this fork
+# block_replace_shape = "underline"
